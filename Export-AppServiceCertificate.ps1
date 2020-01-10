@@ -2,8 +2,8 @@
 $appServiceCertificateName = "HybridCenterSSL"
 $resourceGroupName = "App-Service-Domains"
 $keyVaultSecretName = "ac47a02f809749579b8698ebcca5d8ba"
-$subscriptionId = "dd38641d-ce43-41a5-ad40-1012fdd26a6e"
-$azureLoginEmailId = "v-didzho@microsoft.com"
+$subscriptionId = "xxxxxx"
+$azureLoginEmailId = "admin@azuretechguy.com"
 
 Connect-AzAccount
 Set-AzContext -SubscriptionId $subscriptionId
